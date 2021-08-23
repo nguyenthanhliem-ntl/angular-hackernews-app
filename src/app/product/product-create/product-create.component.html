@@ -1,0 +1,16 @@
+<form [formGroup]="formProduct" (ngSubmit)="saveProduct()">
+  <div>
+    id:  <input type="number" formControlName="id">
+  </div>
+   <div>
+    name:  <input type="text" formControlName="name">
+  </div>
+   <div>
+    price:  <input type="number" formControlName="price">
+  </div>
+   <div>
+    description:  <input type="text" formControlName="description">
+  </div>
+  <button name = "dd" value="nut" >add</button>
+</form>
+<div [ngClass]="'red size20'"> Red Text with Size 20px </div>
